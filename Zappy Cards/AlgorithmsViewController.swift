@@ -34,6 +34,17 @@ class AlgorithmsViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let myData = quizAlgo[indexPath.row]
+        performSegue(withIdentifier: "detailAlgoSegue", sender: myData)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as? DetailAlgoViewController
+        detailVC?.detailQA = sender as! Quiz
+    }
+    
     func makeQuizArray() -> [Quiz] {
     
         let quizA1 = Quiz()

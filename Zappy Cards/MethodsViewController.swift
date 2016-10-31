@@ -34,6 +34,18 @@ class MethodsViewController: UIViewController, UITableViewDataSource, UITableVie
         cell.textLabel?.text = quiz.question
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let myData = quizMethods[indexPath.row]
+        performSegue(withIdentifier: "detailMethodsSegue", sender: myData)
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as? DetailMethodsViewController
+        detailVC?.detailQA = sender as! Quiz
+    }
+    
 
     
     func makeQuizArray() -> [Quiz] {

@@ -36,6 +36,19 @@ class InterviewViewController: UIViewController, UITableViewDataSource, UITableV
         return cell
     }
     
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let myData = quizInterview[indexPath.row]
+        performSegue(withIdentifier: "interviewSegue", sender: myData)
+    }
+    
+  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as? DetailInterviewViewController
+        detailVC?.detailQA = sender as! Quiz
+    }
+    
+    
     func makeQuizArray() -> [Quiz] {
         let quizI1 = Quiz()
         
