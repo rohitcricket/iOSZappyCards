@@ -130,6 +130,9 @@
                             <constraint firstAttribute="trailing" secondItem="Gjh-bH-3sk" secondAttribute="trailing" id="nCp-Hv-Dl9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Gjh-bH-3sk" id="NiF-2R-CRT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8P-i7-lOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,6 +198,9 @@
                             <constraint firstItem="glv-Hk-Ba0" firstAttribute="top" secondItem="eXa-8v-QyU" secondAttribute="bottom" id="sFj-rA-hfs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="eXa-8v-QyU" id="BB6-dz-BSd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nsL-hq-eaC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
