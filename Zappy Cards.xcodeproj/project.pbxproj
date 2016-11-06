@@ -10,6 +10,8 @@
 		9B3A611C1DC6F84200E5F859 /* DetailMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611B1DC6F84200E5F859 /* DetailMethodsViewController.swift */; };
 		9B3A611E1DC6FB5F00E5F859 /* DetailAlgoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611D1DC6FB5F00E5F859 /* DetailAlgoViewController.swift */; };
 		9B3A61201DC7083F00E5F859 /* DetailInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611F1DC7083F00E5F859 /* DetailInterviewViewController.swift */; };
+		9B51708E1DCBFA2B00A66E6D /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51708D1DCBFA2B00A66E6D /* PatternsViewController.swift */; };
+		9B5170901DCBFE1600A66E6D /* DetailPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51708F1DCBFE1600A66E6D /* DetailPatternViewController.swift */; };
 		9B7B2FFE1DC6C2F600A5CA2E /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B2FFD1DC6C2F600A5CA2E /* AlgorithmsViewController.swift */; };
 		9B7B30001DC6C31100A5CA2E /* InterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B2FFF1DC6C31100A5CA2E /* InterviewViewController.swift */; };
 		9BED6A3E1DC545430096354C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED6A3D1DC545430096354C /* AppDelegate.swift */; };
@@ -27,6 +29,8 @@
 		9B3A611B1DC6F84200E5F859 /* DetailMethodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMethodsViewController.swift; sourceTree = "<group>"; };
 		9B3A611D1DC6FB5F00E5F859 /* DetailAlgoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlgoViewController.swift; sourceTree = "<group>"; };
 		9B3A611F1DC7083F00E5F859 /* DetailInterviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterviewViewController.swift; sourceTree = "<group>"; };
+		9B51708D1DCBFA2B00A66E6D /* PatternsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
+		9B51708F1DCBFE1600A66E6D /* DetailPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailPatternViewController.swift; path = ../DetailPatternViewController.swift; sourceTree = "<group>"; };
 		9B7B2FFD1DC6C2F600A5CA2E /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		9B7B2FFF1DC6C31100A5CA2E /* InterviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewViewController.swift; sourceTree = "<group>"; };
 		9BED6A3A1DC545430096354C /* Zappy Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zappy Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +42,7 @@
 		9BED6A491DC545430096354C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BED6A4F1DC54A5B0096354C /* SwiftConceptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftConceptsViewController.swift; sourceTree = "<group>"; };
 		9BED6A511DC563360096354C /* DetailConceptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailConceptsViewController.swift; sourceTree = "<group>"; };
-		9BED6A551DC5A2C40096354C /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		9BED6A551DC5A2C40096354C /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quiz.swift; path = ../Quiz.swift; sourceTree = "<group>"; };
 		9BED6A571DC688580096354C /* MethodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +60,6 @@
 		9BED6A311DC545420096354C = {
 			isa = PBXGroup;
 			children = (
-				9BED6A551DC5A2C40096354C /* Quiz.swift */,
 				9BED6A3C1DC545430096354C /* Zappy Cards */,
 				9BED6A3B1DC545430096354C /* Products */,
 			);
@@ -73,10 +76,13 @@
 		9BED6A3C1DC545430096354C /* Zappy Cards */ = {
 			isa = PBXGroup;
 			children = (
+				9BED6A551DC5A2C40096354C /* Quiz.swift */,
 				9BED6A3D1DC545430096354C /* AppDelegate.swift */,
 				9BED6A3F1DC545430096354C /* ViewController.swift */,
 				9BED6A411DC545430096354C /* Main.storyboard */,
+				9B51708D1DCBFA2B00A66E6D /* PatternsViewController.swift */,
 				9B3A611F1DC7083F00E5F859 /* DetailInterviewViewController.swift */,
+				9B51708F1DCBFE1600A66E6D /* DetailPatternViewController.swift */,
 				9B3A611D1DC6FB5F00E5F859 /* DetailAlgoViewController.swift */,
 				9B3A611B1DC6F84200E5F859 /* DetailMethodsViewController.swift */,
 				9B7B2FFF1DC6C31100A5CA2E /* InterviewViewController.swift */,
@@ -166,9 +172,11 @@
 				9BED6A401DC545430096354C /* ViewController.swift in Sources */,
 				9B7B2FFE1DC6C2F600A5CA2E /* AlgorithmsViewController.swift in Sources */,
 				9BED6A581DC688580096354C /* MethodsViewController.swift in Sources */,
+				9B51708E1DCBFA2B00A66E6D /* PatternsViewController.swift in Sources */,
 				9BED6A561DC5A2C40096354C /* Quiz.swift in Sources */,
 				9B3A611E1DC6FB5F00E5F859 /* DetailAlgoViewController.swift in Sources */,
 				9B7B30001DC6C31100A5CA2E /* InterviewViewController.swift in Sources */,
+				9B5170901DCBFE1600A66E6D /* DetailPatternViewController.swift in Sources */,
 				9B3A61201DC7083F00E5F859 /* DetailInterviewViewController.swift in Sources */,
 				9B3A611C1DC6F84200E5F859 /* DetailMethodsViewController.swift in Sources */,
 				9BED6A3E1DC545430096354C /* AppDelegate.swift in Sources */,
