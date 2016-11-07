@@ -90,37 +90,32 @@
                                     <segue destination="kzo-UW-8Ri" kind="show" id="2AH-bv-mr5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Be Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZt-W5-8IM">
-                                <rect key="frame" x="132" y="124" width="97" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Be Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZt-W5-8IM">
+                                <rect key="frame" x="150" y="124" width="97" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Xcode Tricks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzl-C2-hKi">
-                                <rect key="frame" x="44" y="229" width="155" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Algo Master" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkL-UP-eqL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Algo Master" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkL-UP-eqL">
                                 <rect key="frame" x="10" y="339" width="122" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="De-stress Interviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-hh-Iwy">
-                                <rect key="frame" x="46" y="452" width="150" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ace Interviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCa-hh-Iwy">
+                                <rect key="frame" x="57" y="452" width="139" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Patterns &amp; Tricks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Oa-bT-53y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Patterns &amp; Tricks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Oa-bT-53y">
                                 <rect key="frame" x="72" y="576" width="163" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Xcode Tricks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzl-C2-hKi">
+                                <rect key="frame" x="64" y="230" width="132" height="18"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -129,14 +124,24 @@
                         <color key="backgroundColor" red="0.30980392156862746" green="0.76470588235294112" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JU0-RF-vBq" firstAttribute="centerY" secondItem="P13-m6-wEl" secondAttribute="centerY" constant="15.5" id="6j9-S9-jyQ"/>
+                            <constraint firstItem="JU0-RF-vBq" firstAttribute="leading" secondItem="hkL-UP-eqL" secondAttribute="trailing" constant="20" id="8oe-mB-Plx"/>
+                            <constraint firstItem="AZt-W5-8IM" firstAttribute="top" secondItem="tAt-Up-tKz" secondAttribute="bottom" constant="-40" id="BBJ-XJ-7mX"/>
                             <constraint firstAttribute="trailing" secondItem="tAt-Up-tKz" secondAttribute="trailing" constant="55" id="DWk-SP-7RR"/>
+                            <constraint firstItem="yVw-Ry-jLO" firstAttribute="leading" secondItem="1Oa-bT-53y" secondAttribute="trailing" constant="20" id="DcY-Hp-kHL"/>
+                            <constraint firstItem="YDF-Az-gTy" firstAttribute="leading" secondItem="MCa-hh-Iwy" secondAttribute="trailing" constant="20" id="MeT-7c-M1N"/>
                             <constraint firstItem="JU0-RF-vBq" firstAttribute="centerX" secondItem="P13-m6-wEl" secondAttribute="centerX" constant="-7.5" id="QVX-9H-BYu"/>
+                            <constraint firstItem="gzl-C2-hKi" firstAttribute="top" secondItem="N0t-uN-rF7" secondAttribute="bottom" constant="-39" id="Ubm-Sl-h1f"/>
                             <constraint firstAttribute="trailing" secondItem="YDF-Az-gTy" secondAttribute="trailing" constant="95" id="VOh-GF-DWx"/>
+                            <constraint firstItem="hkL-UP-eqL" firstAttribute="top" secondItem="JU0-RF-vBq" secondAttribute="bottom" constant="-40" id="XKl-oP-wE0"/>
                             <constraint firstItem="JU0-RF-vBq" firstAttribute="top" secondItem="N0t-uN-rF7" secondAttribute="bottom" constant="50" id="Y5r-Vx-n7U"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yVw-Ry-jLO" secondAttribute="bottom" constant="51" id="a9P-RU-LYd"/>
                             <constraint firstItem="tAt-Up-tKz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="cHr-Uh-p59"/>
+                            <constraint firstItem="N0t-uN-rF7" firstAttribute="leading" secondItem="gzl-C2-hKi" secondAttribute="trailing" constant="20" id="cUw-9O-6Pq"/>
                             <constraint firstItem="YDF-Az-gTy" firstAttribute="top" secondItem="JU0-RF-vBq" secondAttribute="bottom" constant="53" id="ck1-RJ-zxb"/>
                             <constraint firstAttribute="trailing" secondItem="N0t-uN-rF7" secondAttribute="trailing" constant="95" id="dXN-eO-1Cq"/>
+                            <constraint firstItem="MCa-hh-Iwy" firstAttribute="top" secondItem="YDF-Az-gTy" secondAttribute="bottom" constant="-40" id="eLG-9l-p7H"/>
+                            <constraint firstItem="tAt-Up-tKz" firstAttribute="leading" secondItem="AZt-W5-8IM" secondAttribute="trailing" constant="20" id="eVT-UI-1G1"/>
+                            <constraint firstItem="1Oa-bT-53y" firstAttribute="top" secondItem="yVw-Ry-jLO" secondAttribute="bottom" constant="-40" id="rb9-MT-uiX"/>
                             <constraint firstAttribute="trailing" secondItem="yVw-Ry-jLO" secondAttribute="trailing" constant="55" id="wdC-58-DLB"/>
                         </constraints>
                     </view>
