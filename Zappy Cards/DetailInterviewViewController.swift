@@ -11,10 +11,10 @@ import UIKit
 class DetailInterviewViewController: UIViewController {
     
     
-    @IBOutlet weak var questionLabel: UILabel!
     
-    @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var questionTextView: UITextView!
     
+    @IBOutlet weak var answerTextView: UITextView!
     
     var detailQA = Quiz()
     
@@ -22,8 +22,8 @@ class DetailInterviewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        questionLabel.text = detailQA.question
-        answerLabel.text = detailQA.answer
+        questionTextView.text = detailQA.question
+        answerTextView.text = detailQA.answer
     }
     
 

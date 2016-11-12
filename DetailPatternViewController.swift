@@ -11,17 +11,19 @@ import UIKit
 class DetailPatternViewController: UIViewController {
     
     
-    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionTextView: UITextView!
     
-    @IBOutlet weak var answerLabel: UILabel!
+    
+    @IBOutlet weak var answerTextView: UITextView!
+    
     
     var detailQA = Quiz()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        questionLabel.text = detailQA.question
-        answerLabel.text = detailQA.answer
+        questionTextView.text = detailQA.question
+        answerTextView.text = detailQA.answer
     }
 
 

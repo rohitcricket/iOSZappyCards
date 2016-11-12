@@ -50,19 +50,26 @@ class AlgorithmsViewController: UIViewController, UITableViewDelegate, UITableVi
         let quizA1 = Quiz()
         
         quizA1.question = "Q1: Assume you’re building a simple service that lists a group of students. Create a Linked List to represent the service."
-        quizA1.answer = "class StudentNode { var key: Students? var next: StudentNode? }"
+        quizA1.answer = "A1: class StudentNode { var key: Students? var next: StudentNode? }"
         quizA1.category = "Linked List"
         quizA1.author = "Rohit"
         quizA1.number = 1
         
         let quizA2 = Quiz()
         quizA2.question = "Q2: Refactor the above using generics."
-        quizA2.answer = "class LLNode<T> { var key: T? var next: LLNode<T>? }"
+        quizA2.answer = "A2: class LLNode<T> { var key: T? var next: LLNode<T>? }"
         quizA2.category = "Linked List"
         quizA2.author = "Rohit"
         quizA2.number = 2
         
-        return [quizA1, quizA2]
+        let quizA3 = Quiz()
+        quizA3.question = "Q3: Write a Stack Data Structure in Swift."
+        quizA3.answer = "A3: - struct Stack<Element> {var items = [Element]() mutating func push(_ item: Element) {items.append(item)} mutating func pop() -> Element {return items.removeLast()}}"
+        quizA3.category = "Stack"
+        quizA3.author = "Rohit"
+        quizA3.number = 3
+        
+        return [quizA1, quizA2, quizA3]
     
     }
 
