@@ -28,9 +28,9 @@ class AlgorithmsViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AlgoTableViewCell
         let quiz = quizAlgo[indexPath.row]
-        cell.textLabel?.text = quiz.question
+        cell.myTextView.text = quiz.question
         return cell
     }
     
@@ -68,6 +68,13 @@ class AlgorithmsViewController: UIViewController, UITableViewDelegate, UITableVi
         quizA3.category = "Stack"
         quizA3.author = "Rohit"
         quizA3.number = 3
+        
+        let quizA4 = Quiz()
+        quizA4.question = "Q4: Use Bubble Sort to sort [12, 52, 32, 24, 67, 9, 45, 81,92, 77]"
+        quizA4.answer = "A4: var myArray = [12, 52, 32, 24, 67, 9, 45, 81,92, 77]" + "/n/n"
+        quizA4.category = "Sorting"
+        quizA4.author = "Rohit"
+        quizA4.number = 4
         
         return [quizA1, quizA2, quizA3]
     

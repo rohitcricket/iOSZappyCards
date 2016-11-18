@@ -29,9 +29,9 @@ class MethodsViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MethodTableViewCell
         let quiz = quizMethods[indexPath.row]
-        cell.textLabel?.text = quiz.question
+        cell.myTextView.text = quiz.question
         return cell
     }
     

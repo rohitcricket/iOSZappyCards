@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B339BDD1DDE968200DDDCCA /* CommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B339BDC1DDE968200DDDCCA /* CommonTableViewCell.swift */; };
+		9B339BE11DDEADFF00DDDCCA /* MethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B339BE01DDEADFF00DDDCCA /* MethodTableViewCell.swift */; };
+		9B339BE31DDEB14700DDDCCA /* AlgoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B339BE21DDEB14700DDDCCA /* AlgoTableViewCell.swift */; };
+		9B339BE51DDEB30900DDDCCA /* InterviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B339BE41DDEB30900DDDCCA /* InterviewTableViewCell.swift */; };
+		9B339BE71DDEB3F900DDDCCA /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B339BE61DDEB3F900DDDCCA /* PatternTableViewCell.swift */; };
 		9B3A611C1DC6F84200E5F859 /* DetailMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611B1DC6F84200E5F859 /* DetailMethodsViewController.swift */; };
 		9B3A611E1DC6FB5F00E5F859 /* DetailAlgoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611D1DC6FB5F00E5F859 /* DetailAlgoViewController.swift */; };
 		9B3A61201DC7083F00E5F859 /* DetailInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A611F1DC7083F00E5F859 /* DetailInterviewViewController.swift */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B339BDC1DDE968200DDDCCA /* CommonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
+		9B339BE01DDEADFF00DDDCCA /* MethodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodTableViewCell.swift; sourceTree = "<group>"; };
+		9B339BE21DDEB14700DDDCCA /* AlgoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgoTableViewCell.swift; path = "Zappy Cards/AlgoTableViewCell.swift"; sourceTree = "<group>"; };
+		9B339BE41DDEB30900DDDCCA /* InterviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterviewTableViewCell.swift; path = "Zappy Cards/InterviewTableViewCell.swift"; sourceTree = "<group>"; };
+		9B339BE61DDEB3F900DDDCCA /* PatternTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatternTableViewCell.swift; path = "Zappy Cards/PatternTableViewCell.swift"; sourceTree = "<group>"; };
 		9B3A611B1DC6F84200E5F859 /* DetailMethodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMethodsViewController.swift; sourceTree = "<group>"; };
 		9B3A611D1DC6FB5F00E5F859 /* DetailAlgoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlgoViewController.swift; sourceTree = "<group>"; };
 		9B3A611F1DC7083F00E5F859 /* DetailInterviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterviewViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 		9BED6A311DC545420096354C = {
 			isa = PBXGroup;
 			children = (
+				9B339BE01DDEADFF00DDDCCA /* MethodTableViewCell.swift */,
+				9B339BE21DDEB14700DDDCCA /* AlgoTableViewCell.swift */,
+				9B339BE61DDEB3F900DDDCCA /* PatternTableViewCell.swift */,
+				9B339BE41DDEB30900DDDCCA /* InterviewTableViewCell.swift */,
+				9B339BDC1DDE968200DDDCCA /* CommonTableViewCell.swift */,
 				9BED6A3C1DC545430096354C /* Zappy Cards */,
 				9BED6A3B1DC545430096354C /* Products */,
 			);
@@ -171,17 +186,22 @@
 			files = (
 				9BED6A401DC545430096354C /* ViewController.swift in Sources */,
 				9B7B2FFE1DC6C2F600A5CA2E /* AlgorithmsViewController.swift in Sources */,
+				9B339BDD1DDE968200DDDCCA /* CommonTableViewCell.swift in Sources */,
 				9BED6A581DC688580096354C /* MethodsViewController.swift in Sources */,
 				9B51708E1DCBFA2B00A66E6D /* PatternsViewController.swift in Sources */,
 				9BED6A561DC5A2C40096354C /* Quiz.swift in Sources */,
 				9B3A611E1DC6FB5F00E5F859 /* DetailAlgoViewController.swift in Sources */,
 				9B7B30001DC6C31100A5CA2E /* InterviewViewController.swift in Sources */,
+				9B339BE71DDEB3F900DDDCCA /* PatternTableViewCell.swift in Sources */,
+				9B339BE31DDEB14700DDDCCA /* AlgoTableViewCell.swift in Sources */,
+				9B339BE51DDEB30900DDDCCA /* InterviewTableViewCell.swift in Sources */,
 				9B5170901DCBFE1600A66E6D /* DetailPatternViewController.swift in Sources */,
 				9B3A61201DC7083F00E5F859 /* DetailInterviewViewController.swift in Sources */,
 				9B3A611C1DC6F84200E5F859 /* DetailMethodsViewController.swift in Sources */,
 				9BED6A3E1DC545430096354C /* AppDelegate.swift in Sources */,
 				9BED6A521DC563360096354C /* DetailConceptsViewController.swift in Sources */,
 				9BED6A501DC54A5B0096354C /* SwiftConceptsViewController.swift in Sources */,
+				9B339BE11DDEADFF00DDDCCA /* MethodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

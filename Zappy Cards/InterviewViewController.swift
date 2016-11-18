@@ -30,9 +30,9 @@ class InterviewViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! InterviewTableViewCell
         let quiz = quizInterview[indexPath.row]
-        cell.textLabel?.text = quiz.question
+        cell.myTextView.text = quiz.question
         return cell
     }
     

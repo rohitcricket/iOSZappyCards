@@ -15,6 +15,8 @@ class SwiftConceptsViewController: UIViewController, UITableViewDelegate, UITabl
     
     var swiftConcepts : [Quiz] = []
     
+    var players = ["one", "two"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,10 +32,9 @@ class SwiftConceptsViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CommonTableViewCell
         let quiz = swiftConcepts[indexPath.row]
-        cell.textLabel?.text = quiz.question
-        cell.textLabel?.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        cell.myTextView.text = quiz.question
         return cell
     }
     

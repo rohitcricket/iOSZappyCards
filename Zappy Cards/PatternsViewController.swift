@@ -29,9 +29,9 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PatternTableViewCell
         let quiz = patternQuiz[indexPath.row]
-        cell.textLabel?.text = quiz.question
+        cell.myTextView.text = quiz.question
         return cell
     }
     
