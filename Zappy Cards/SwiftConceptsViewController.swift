@@ -15,8 +15,6 @@ class SwiftConceptsViewController: UIViewController, UITableViewDelegate, UITabl
     
     var swiftConcepts : [Quiz] = []
     
-    var players = ["one", "two"]
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()

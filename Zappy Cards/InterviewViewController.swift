@@ -81,7 +81,7 @@ class InterviewViewController: UIViewController, UITableViewDataSource, UITableV
         
         let quizI5 = Quiz()
         quizI5.question = "Q5: Explain what Lazy stored properties is and when it is useful."
-        quizI5.answer = "A4: Lazy stored properties are used for a property whose initial values is not calculated until the first time it is used.  You can declare a lazy stored property by writing the lazy modifier before its declaration. Lazy properties are useful when the initial value for a property is reliant on outside factors whose values are unknown." + "\n\n" + "lazy var importer = DataImporter()"
+        quizI5.answer = "A4: Lazy initialization (also sometimes called lazy instantiation, or lazy loading) is a technique for delaying the creation of an object or some other expensive process until it’s needed. When programming for iOS, this is helpful to make sure you utilize only the memory you need when you need it. Lazy properties are often useful when the initial value for a property is reliant on outside factors whose values are unknown." + "\n\n" + "lazy var importer = DataImporter()"
         quizI5.category = "Interview Questions"
         quizI5.author = "Rohit"
         quizI5.number = 5
